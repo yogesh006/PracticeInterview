@@ -1,0 +1,28 @@
+/* body,html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentContainer{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.childContainer{
+   text-align: center;
+} */
+
+
+.parentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.childContainer{
+    text-align: center;
+ } 
