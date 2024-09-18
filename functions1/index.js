@@ -79,3 +79,65 @@ a[b]=123;
 a[c]=456;
 
 console.log(a[b]);
+
+
+//FUNCTION COMPOSITIONS
+
+const functions = [x => x + 1, x => x * x, x => 2 * x];
+const x = 4;
+
+let result = x;
+for (let i = functions.length - 1; i >= 0; i--) {
+  result = functions[i](result);
+}
+
+console.log(result);  // Output: 65
+
+
+
+//FUNCTION COMPOSITIONS
+
+const functions = [x => x + 1, x => x * x, x => 2 * x];
+const x = 4;
+
+let result = x;
+for (let i = functions.length - 1; i >= 0; i--) {
+  result = functions[i](result);
+}
+
+console.log(result);  // Output: 65
+
+
+//FUNCTION COMPOSITIONS
+
+const functions = [x => x + 1, x => x * x, x => 2 * x];
+const x = 4;
+
+let result = x;
+for (let i = functions.length - 1; i >= 0; i--) {
+  result = functions[i](result);
+}
+
+console.log(result);  // Output: 65
+
+
+//==================
+//FUNCTION COMPOSITION
+
+// const functions = [x => x + 1, x => x * x, x => 2 * x];
+// const x = 4;
+
+// const result = functions.reduceRight((acc, func) => func(acc), x);
+
+// console.log(result);  // Output: 65
+
+
+const functions = [x => x + 1, x => x * x, x => 2 * x];
+const x = 4;
+
+let result = x;
+for (let i = functions.length - 1; i >= 0; i--) {
+  result = functions[i](result);
+}
+
+console.log(result);  // Output: 65
